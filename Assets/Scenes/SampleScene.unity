@@ -3465,6 +3465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653435794843}
+  - component: {fileID: 919132149428178722}
   m_Layer: 0
   m_Name: log_cabin 1
   m_TagString: Untagged
@@ -3472,6 +3473,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &919132149428178722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149428178721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1860b86550aec644692f93fa6195ab1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 963194225}
+  cam2: {fileID: 948238516}
+  ispaused: 0
+  player: {fileID: 1406036734}
+  overlay: {fileID: 1688467838}
 --- !u!33 &959050719642698921
 MeshFilter:
   m_ObjectHideFlags: 0
